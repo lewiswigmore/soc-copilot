@@ -10,16 +10,16 @@ SOC Copilot is an in-depth Security Operations Center assistant, leveraging the 
 
 SOC Copilot supports a range of functionalities, which are triggered by the following keywords:
 
-- `mitre`: Maps descriptions to specific MITRE ATT&CK stages.
 - `analyse`: Interprets provided information to explain potential cybersecurity implications.
-- `risk`: Identifies and assesses risks associated with provided information.
-- `vulnerability`: Provides details on known vulnerabilities, their severity, and mitigation strategies.
 - `compliance`: Guides on compliance with standards and regulations relevant to specific industries.
-- `threat actor`: Details known threat actors, their techniques, tactics, and procedures (TTPs), and recent activities.
 - `ioc`: Explains Indicators of Compromise for threat detection and response.
-- `yara`: Assists in creating YARA rules based on provided or discovered data.
 - `kql`: Supports the construction of KQL queries for triaging purposes.
 - `malware`: Educates on malware families, TTPs, attack vectors, and aids in gathering IoCs.
+- `mitre`: Maps descriptions to specific MITRE ATT&CK stages.
+- `risk`: Identifies and assesses risks associated with provided information.
+- `threat actor`: Details known threat actors, their techniques, tactics, and procedures (TTPs), and recent activities.
+- `vulnerability`: Provides details on known vulnerabilities, their severity, and mitigation strategies.
+- `yara`: Assists in creating YARA rules based on provided or discovered data.
 
 ## Future Features
 
@@ -40,7 +40,7 @@ To utilise SOC Copilot, include the relevant keyword in your query. Type `help` 
 - To learn about a specific vulnerability, use: `vulnerability [cve]`. SOC Copilot will gather information, risks and remediation strategies for this vulnerability.
 - To collect IoCs for a type of malware, use: `ioc [malware]`. SOC Copilot will provide a list of associated IoCs, like IPs, domains, and file hashes.
 
-## Installation
+## Access
 
 To access SOC Copilot, navigate to the following link: [SOC Copilot on OpenAI](https://chat.openai.com/g/g-qvSadylbt-soc-copilot)
 
@@ -52,3 +52,7 @@ This project is licensed under the OpenAI License for GPT-4 models. Please refer
 
 - OpenAI and their custom GPTs feature, which empowers users to create specialised tools and assistants.
 - Mentioned in the [Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) repository by [Thomas Roccia](https://github.com/fr0gger) - A collection of Cyber Security GPT-powered agents, providing insights and inspiration for projects like SOC Copilot.
+
+## DISCLAIMER
+
+A GPT-4 subscription is required to access custom GPTs.
