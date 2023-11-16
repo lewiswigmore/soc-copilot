@@ -1,5 +1,7 @@
 # [SOC Copilot](https://chat.openai.com/g/g-qvSadylbt-soc-copilot)
 
+In-depth Security Operations assistant. For guidance on usage, ask for `help`.
+
 ## Introduction
 
 SOC Copilot is an in-depth Security Operations Center assistant, leveraging the capabilities of OpenAI's custom GPTs feature to deliver targeted support for cybersecurity professionals. This tool provides guidance on various aspects of Security Operations such as threat and vulnerability analysis, risk assessment, remediation strategies and compliance through a keyword-driven interface.
