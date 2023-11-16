@@ -48,4 +48,4 @@ This project is licensed under the OpenAI License for GPT-4 models.
 ## Acknowledgments
 
 - OpenAI and their custom GPTs feature, which empowers users to create specialised tools and assistants.
-- Mentioned in the [Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) repository by [Thomas Roccia](https://github.com/fr0gger) for a collection of Cyber Security GPT-powered agents, providing insights and inspiration for projects like SOC Copilot.
+- Mentioned in the [Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) repository by [Thomas Roccia](https://github.com/fr0gger) - A collection of Cyber Security GPT-powered agents, providing insights and inspiration for projects like SOC Copilot.
