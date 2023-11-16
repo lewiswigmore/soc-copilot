@@ -16,7 +16,7 @@ SOC Copilot supports a range of functionalities, which are triggered by the foll
 - `vulnerability`: Provides details on known vulnerabilities, their severity, and mitigation strategies.
 - `compliance`: Guides on compliance with standards and regulations relevant to specific industries.
 - `threat actor`: Details known threat actors, their techniques, tactics, and procedures (TTPs), and recent activities.
-- `IoC`: Explains Indicators of Compromise for threat detection and response.
+- `ioc`: Explains Indicators of Compromise for threat detection and response.
 - `yara`: Assists in creating YARA rules based on provided or discovered data.
 - `kql`: Supports the construction of KQL queries for triaging purposes.
 - `malware`: Educates on malware families, TTPs, attack vectors, and aids in gathering IoCs.
@@ -25,17 +25,20 @@ SOC Copilot supports a range of functionalities, which are triggered by the foll
 
 Ideas to further enhance SOC Copilot include:
 
-- Integration with real-time threat intelligence feeds for up-to-date IoC collection.
 - Automated suggestions for hardening configurations based on identified vulnerabilities.
-- Customisable alerting for new compliance regulations in specified industries.
-- Enhanced natural language processing for more intuitive interaction.
+- Third-party risk insights on assessing and mitigating security risks associated with third-party vendors and partners.
+- Forensic guidance on digital forensics techniques, tools, and methodologies for investigating security incidents.
+- Detailed phishing tactics, how to recognise phishing attempts, and steps to mitigate the risk.
+- Patch management, including which patches are critical and how to apply them.
+- DLP, its importance in preventing data breaches, and strategies for implementing DLP measures.
+
 
 ## Usage
 
-To utilise SOC Copilot, include the relevant keyword in your query. For example:
+To utilise SOC Copilot, include the relevant keyword in your query. Type `help` to start or see an example below:
 
 - To learn about a specific vulnerability, use: `vulnerability [cve]`. SOC Copilot will gather information, risks and remediation strategies for this vulnerability.
-- To collect IoCs for a type of malware, use: `ioc [name]`. SOC Copilot will provide a list of associated IoCs, like IPs, domains, and file hashes.
+- To collect IoCs for a type of malware, use: `ioc [malware]`. SOC Copilot will provide a list of associated IoCs, like IPs, domains, and file hashes.
 
 ## Installation
 
@@ -43,7 +46,7 @@ To access SOC Copilot, navigate to the following link: [SOC Copilot on OpenAI](h
 
 ## License
 
-This project is licensed under the OpenAI License for GPT-4 models.
+This project is licensed under the OpenAI License for GPT-4 models. Please refer to the [official website](https://openai.com/) for further information. 
 
 ## Acknowledgments
 
