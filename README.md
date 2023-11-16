@@ -34,7 +34,7 @@ Ideas to further enhance SOC Copilot include:
 
 To utilise SOC Copilot, include the relevant keyword in your query. For example:
 
-- To learn about a specific threat actor, use: `vulnerability [cve]`. SOC Copilot will gather information, risks and remediation strategies for this vulnerability.
+- To learn about a specific vulnerability, use: `vulnerability [cve]`. SOC Copilot will gather information, risks and remediation strategies for this vulnerability.
 - To collect IoCs for a type of malware, use: `ioc [name]`. SOC Copilot will provide a list of associated IoCs, like IPs, domains, and file hashes.
 
 ## Installation
