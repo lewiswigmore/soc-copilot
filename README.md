@@ -10,17 +10,19 @@ SOC Copilot is an in-depth Security Operations Center assistant, leveraging the 
 
 SOC Copilot now includes a range of tailored capabilities, which are triggered by the following keywords:
 
-- **`analyse`**: Interprets information to outline potential cybersecurity implications.
-- **`compliance`**: Offers guidance on standards and regulations compliance pertinent to specific industries.
-- **`IoC`**: Explains relevant Indicators of Compromise for threat detection and response, including sourcing a comprehensive list of IoCs from credible online resources.
-- **`kql`**: Initiates an 'analyst support mode' for constructing KQL queries tailored for triaging, beginning with a query about the required assistance.
-- **`malware`**: Delivers insights into malware families, their TTPs, attack vectors, and includes inquiries about gathering IoCs and devising remediation strategies.
-- **`mitre`**: Maps descriptions to specific MITRE ATT&CK stages.
-- **`phishing`**: Provides information on common phishing tactics, identification techniques, and mitigation steps. Includes the capability to analyze provided phishing-related data.
-- **`risk`**: Identifies and assesses risks associated with the provided information.
-- **`spl`**: Assists in constructing SPL (Search Processing Language) queries for data analysis and security investigations, with initial inquiries about the specific assistance needed.
-- **`threat actor`**: Collects and presents information about known threat actors, their TTPs, and recent activities.
-- **`vulnerability`**: Details known vulnerabilities, their severity, and mitigation strategies.
+- **`analyse`**: Activates SOC Copilot's ability to interpret provided information and explain potential cybersecurity implications.
+- **`compliance`**: Engages SOC Copilot in providing guidance on compliance with standards and regulations relevant to the user's industry, requesting additional context if necessary.
+- **`forensics`**: Initiates support for digital forensic analysis, including data acquisition, preservation, analysis, and reporting processes.
+- **`IoC`**: Commands SOC Copilot to explain relevant Indicators of Compromise for threat detection and response, including sourcing a list of IoCs such as IPs, C2 servers, domains, URLs, and file hashes from reputable online sources.
+- **`kql`**: Triggers assistance in constructing KQL queries for triaging, use-case management, or tuning existing rule logic, with initial queries about the needed KQL assistance.
+- **`malware`**: Prompts explanations about malware families, their TTPs, attack vectors, and inquires about IoCs gathering and remediation strategies.
+- **`mitre`**: Directs SOC Copilot to map information to specific MITRE ATT&CK stages.
+- **`patch`**: Provides assistance with patching vulnerabilities, recommending information sourced from official and credible vendor sources online.
+- **`phishing`**: Offers details about common phishing tactics, recognition techniques, and mitigation steps, and can analyze provided phishing-related data.
+- **`risk`**: Identifies risks associated with the given information, potentially requesting additional environmental context for elaboration.
+- **`spl`**: Assists in constructing SPL (Search Processing Language) queries for data analysis, security investigations, and use-case management, inquiring specifically about the SPL assistance needed.
+- **`threat actor`**: Gathers information about known threat actors, their TTPs, and recent activities.
+- **`vulnerability`**: Provides details on known vulnerabilities, their severity, and mitigation strategies, and can also search the internet for information if no specific vulnerability is known. This can be triggered by the `cve` keyword as well.
 - **`yara`**: Facilitates the creation of YARA rules based on provided or discovered data.
 
 ## Future Features
