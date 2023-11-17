@@ -31,10 +31,9 @@ Ideas to further enhance SOC Copilot include:
 
 - Automated suggestions for hardening configurations based on identified vulnerabilities.
 - Third-party risk insights on assessing and mitigating security risks associated with third-party vendors and partners.
-- Forensic guidance on digital forensics techniques, tools, and methodologies for investigating security incidents.
-- Patch management, including which patches are critical and how to apply them.
 - DLP, its importance in preventing data breaches, and strategies for implementing DLP measures.
-
+- Crisis management, support in managing and communicating during a cybersecurity crisis.
+- Incident response step-by-step guidance for IR procedures, including initial assessment, containment strategies, eradication techniques, and recovery plans.
 
 ## Usage
 
