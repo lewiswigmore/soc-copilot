@@ -1,6 +1,6 @@
 # [SOC Copilot](https://chat.openai.com/g/g-qvSadylbt-soc-copilot)
 
-In-depth Security Operations assistant. For guidance on usage, ask for `help`.
+In-depth Security Operations assistant. For guidance on usage, ask for `help`. NOTICE: WIP migrating to Azure OpenAI Deployment 
 
 ## Introduction
 
